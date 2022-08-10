@@ -18,20 +18,20 @@ def btc_prices():
   btc_price = btc_soup.find('span', {"class": "chakra-text css-13hqrwd"}).text # Bitcoin price
   return btc_price
 
-# Webscraping function for Etherium
+# Webscraping function for Ethereum
 def eth_prices(): 
   eth_url = 'https://crypto.com/price/ethereum'
   eth_response = requests.get(eth_url)
   eth_soup = BeautifulSoup(eth_response.text, 'html.parser')
-  eth_price = eth_soup.find('span', {"class": "chakra-text css-13hqrwd"}).text # Etherium price
+  eth_price = eth_soup.find('span', {"class": "chakra-text css-13hqrwd"}).text # Ethereum price
   return eth_price
 
 btc_price = btc_prices()
 eth_price = eth_prices()
 print(Fore.LIGHTYELLOW_EX + "Bitcoin " + Fore.WHITE + "is trading at " + str(btc_price))
-print(Fore.LIGHTCYAN_EX + "Etherium " + Fore.WHITE + "is trading at " + str(eth_price))
+print(Fore.LIGHTCYAN_EX + "Ethereum " + Fore.WHITE + "is trading at " + str(eth_price))
 
-# Etherium price checker
+# Ethereum price checker
 
 checker = 1
 
@@ -65,11 +65,11 @@ while True:
       
 
     if eth_price > new_eth_prices:
-      print(Fore.LIGHTCYAN_EX + "Etherium " + Fore.WHITE + "is trading at " + Fore.LIGHTGREEN_EX + str(eth_price))
+      print(Fore.LIGHTCYAN_EX + "Ethereum " + Fore.WHITE + "is trading at " + Fore.LIGHTGREEN_EX + str(eth_price))
     elif eth_price < new_eth_prices:
-      print(Fore.LIGHTCYAN_EX + "Etherium " + Fore.WHITE + "is trading at " + Fore.RED + str(eth_price))
+      print(Fore.LIGHTCYAN_EX + "Ethereum " + Fore.WHITE + "is trading at " + Fore.RED + str(eth_price))
     else:
-      print(Fore.LIGHTCYAN_EX + "Etherium " + Fore.WHITE + "is trading at " + Fore.WHITE + str(eth_price))
+      print(Fore.LIGHTCYAN_EX + "Ethereum " + Fore.WHITE + "is trading at " + Fore.WHITE + str(eth_price))
 
     
   sleep(1)
