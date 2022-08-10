@@ -4,7 +4,7 @@ The **Crypto Price Checker** is the first part of my crypto bot project that wil
 
 ## Creator
 - The Crypto Price Checker was created by [**Alexander Tomsovic**](github.com/alexandertomsovic)
-- Envisioned by A.R.T.
+- Crypto Price Checker, an opensource project by A.R.T. LLC.
 <a target="_blank" href="https://alextomsovic1.wixsite.com/my-site">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/84757117/183132203-308d3d20-a5ef-4aab-864b-2469f99e9633.jpg">
@@ -24,6 +24,8 @@ The **Crypto Price Checker** is the first part of my crypto bot project that wil
 -  Setting to see % changes
 -  Live AI trading (FREE)
 
-## How to use
+## How To Use
 - You can access the browser version via my [Replit](https://replit.com/@AlexTomsovic/cryptoprices#main.py)
 - To use in an IDE, download the file or type 'gh repo clone alexandertomsovic/cryptopricecheck' into the terminal
+
+![](https://img.shields.io/static/v1?label=Repository+Status&style=flat-square&message=Running&color=brightgreen)
