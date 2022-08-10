@@ -29,4 +29,4 @@ The **Crypto Price Checker** is the first part of my crypto bot project that wil
 - To use in an IDE, download the file or type 'gh repo clone alexandertomsovic/cryptopricecheck' into the terminal
 
 ![](https://img.shields.io/static/v1?label=Repository+Status&style=flat-square&message=Active&color=brightgreen)
-![](https://img.shields.io/static/v1?label=Bitcoin&logo=bitcoin&style=flat-square&message=Active&color=orange)
+![](https://img.shields.io/static/v1?label=Bitcoin&logo=bitcoin&style=flat-square&message=Tracked&color=orange)
