@@ -3,7 +3,7 @@
 The **Crypto Price Checker** is the first part of my crypto bot project that will automatically trade cryptocurrencies. In its current form, this program continually checks the price with live data from [Crypto.com](https://crypto.com) which is sent back to the program. So far, only **ETH** and **BTC** are tracked but I am planning to increase the number of coins quite soon! Stay tuned...
 
 ## Creator
-- The Crypto Price Checker was created by [Alexander Tomsovic](github.com/alexandertomsovic)
+- The Crypto Price Checker was created by [**Alexander Tomsovic**](github.com/alexandertomsovic)
 - Envisioned by A.R.T.
 <a target="_blank" href="https://alextomsovic1.wixsite.com/my-site">
 <picture>
