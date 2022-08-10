@@ -28,4 +28,4 @@ The **Crypto Price Checker** is the first part of my crypto bot project that wil
 - You can access the browser version via my [Replit](https://replit.com/@AlexTomsovic/cryptoprices#main.py)
 - To use in an IDE, download the file or type 'gh repo clone alexandertomsovic/cryptopricecheck' into the terminal
 
-![](https://img.shields.io/static/v1?label=Repository+Status&style=flat-square&message=Running&color=brightgreen)
+![](https://img.shields.io/static/v1?label=Repository+Status&style=flat-square&message=Active&color=brightgreen)
