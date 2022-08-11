@@ -2,6 +2,10 @@
 
 The **Crypto Price Checker** is the first part of my crypto bot project that will automatically trade cryptocurrencies. In its current form, this program continually checks the price with live data from [Crypto.com](https://crypto.com) which is sent back to the program. So far, only **ETH**, **BTC**, and **XRP** are tracked but I am planning to increase the number of coins quite soon! Stay tuned...
 
+## Recent Updates
+- Added Litecoin (LTC)
+- Added Tether (USDT)
+
 ## Creator
 - The Crypto Price Checker was created by [**Alexander Tomsovic**](github.com/alexandertomsovic)
 - Crypto Price Checker, an opensource project by A.R.T. LLC.
