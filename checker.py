@@ -1,4 +1,4 @@
-# Crypto price checker bot by Alexander Tomsovic
+# Crypto Price Checker by Alexander Tomsovic
 
 import requests
 from bs4 import BeautifulSoup
@@ -11,38 +11,65 @@ def clearpage():
   sys.stdout.write('\x1b[2K')
   
 # Webscraping function for Bitcoin
+  
 def btc_prices():
   btc_url='https://crypto.com/price/bitcoin' # URL we use
   btc_response = requests.get(btc_url)
   btc_soup = BeautifulSoup(btc_response.text, 'html.parser') # soup variable parses 
-  btc_price = btc_soup.find('span', {"class": "chakra-text css-13hqrwd"}).text # Bitcoin price
+  btc_price = btc_soup.find('span', {"class": "chakra-text css-13hqrwd"}).text 
   return btc_price
 
 # Webscraping function for Ethereum
+  
 def eth_prices(): 
   eth_url = 'https://crypto.com/price/ethereum'
   eth_response = requests.get(eth_url)
   eth_soup = BeautifulSoup(eth_response.text, 'html.parser')
-  eth_price = eth_soup.find('span', {"class": "chakra-text css-13hqrwd"}).text # Ethereum price
+  eth_price = eth_soup.find('span', {"class": "chakra-text css-13hqrwd"}).text 
   return eth_price
 
 # Webscraping function for XRP
+  
 def xrp_prices():
   xrp_url = 'https://crypto.com/price/xrp'
   xrp_response = requests.get(xrp_url)
   xrp_soup = BeautifulSoup(xrp_response.text, 'html.parser')
-  xrp_price = xrp_soup.find('span', {"class": "chakra-text css-13hqrwd"}).text # Ethereum price
+  xrp_price = xrp_soup.find('span', {"class": "chakra-text css-13hqrwd"}).text 
   return xrp_price
 
+# Webscraping function for Tether
+  
+def usdt_prices():
+  usdt_url = 'https://crypto.com/price/tether'
+  usdt_response = requests.get(usdt_url)
+  usdt_soup = BeautifulSoup(usdt_response.text, 'html.parser')
+  usdt_price = usdt_soup.find('span', {"class": "chakra-text css-13hqrwd"}).text
+  return usdt_price
+
+# Webscraping function for Litecoin
+
+def ltc_prices():
+  ltc_url = 'https://crypto.com/price/litecoin'
+  ltc_response = requests.get(ltc_url)
+  ltc_soup = BeautifulSoup(ltc_response.text, 'html.parser')
+  ltc_price = ltc_soup.find('span', {"class": "chakra-text css-13hqrwd"}).text
+  return ltc_price
+  
 # Attributes function price to actual price
+  
 btc_price = btc_prices()
 eth_price = eth_prices()
 xrp_price = xrp_prices()
+usdt_price = usdt_prices()
+ltc_price = ltc_prices()
 
 # Prints prices in terminal
+
 print(Fore.LIGHTYELLOW_EX + "Bitcoin " + Fore.WHITE + "is trading at " + str(btc_price))
 print(Fore.LIGHTCYAN_EX + "Ethereum " + Fore.WHITE + "is trading at " + str(eth_price))
 print(Fore.LIGHTBLACK_EX + "XRP " + Fore.WHITE + "is trading at " + str(xrp_price))
+print(Fore.GREEN + "Tether " + Fore.WHITE + "is trading at " + str(usdt_price))
+print(Fore.BLUE + "Litecoin " + Fore.WHITE + "is trading at " + str(ltc_price))
 
 # price checker
 
@@ -59,17 +86,24 @@ while True:
   new_btc_prices = btc_prices()
   new_eth_prices = eth_prices()
   new_xrp_prices = xrp_prices()
+  new_usdt_prices = usdt_prices()
+  new_ltc_prices = ltc_prices()
 
   if new_eth_prices != eth_prices or new_btc_prices != btc_prices():
     
     btc_price = btc_prices()
     eth_price = eth_prices()
     xrp_price = xrp_prices()
+    usdt_price = usdt_prices()
+    ltc_price = ltc_prices()
     
     clearpage()
     clearpage()
     clearpage()
     clearpage()
+    clearpage()
+    clearpage()
+    
     if btc_price > new_btc_prices: # Bitcoin up / down movement color coder
       print(Fore.LIGHTYELLOW_EX + "Bitcoin " + Fore.WHITE + "is trading at " + Fore.LIGHTGREEN_EX + str(btc_price))
     elif btc_price < new_btc_prices:
@@ -91,6 +125,21 @@ while True:
     else:
       print(Fore.LIGHTBLACK_EX + "XRP " + Fore.WHITE + "is trading at " + Fore.WHITE + str(xrp_price))
 
+    if usdt_price > new_usdt_prices: # Tether up / down movement color coder
+      print(Fore.GREEN + "Tether " + Fore.WHITE + "is trading at " + Fore.LIGHTGREEN_EX + str(usdt_price))
+    elif usdt_price < new_usdt_prices:
+      print(Fore.GREEN + "Tether " + Fore.WHITE + "is trading at " + Fore.RED + str(usdt_price))
+    else:
+      print(Fore.GREEN + "Tether " + Fore.WHITE + "is trading at " + Fore.WHITE + str(usdt_price))
+
+    if ltc_price > new_ltc_prices: # Litecoin up / down movement color coder
+      print(Fore.BLUE + "Litecoin " + Fore.WHITE + "is trading at " + Fore.LIGHTGREEN_EX + str(ltc_price))
+    elif ltc_price < new_ltc_prices:
+      print(Fore.BLUE + "Litecoin " + Fore.WHITE + "is trading at " + Fore.RED + str(ltc_price))
+    else:
+      print(Fore.BLUE + "Litecoin " + Fore.WHITE + "is trading at " + Fore.WHITE + str(ltc_price))
+
     checker = 1
   sleep(1)
+  
   
