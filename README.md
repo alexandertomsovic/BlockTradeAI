@@ -5,7 +5,7 @@ The **Crypto Price Checker** is the first part of my crypto bot project that wil
 ## Recent Updates
 - Added Litecoin (LTC)
 - Added Tether (USDT)
-
+- Added 24 hour price % change
 ## Creator
 - The Crypto Price Checker was created by [**Alexander Tomsovic**](github.com/alexandertomsovic)
 - Crypto Price Checker, an opensource project by A.R.T. LLC.
