@@ -36,6 +36,7 @@ The **Crypto Price Checker** is the first part of my crypto bot project that wil
 
 ![](https://img.shields.io/static/v1?label=Repository+Status&style=flat-square&message=Active&color=brightgreen)
 ![](https://img.shields.io/static/v1?label=Price+Updates&style=flat-square&message=Active&color=brightgreen)
+![](https://img.shields.io/static/v1?label=Percent+Changes&style=flat-square&message=Active&color=brightgreen)
 
 ![](https://img.shields.io/static/v1?label=Bitcoin&logo=bitcoin&style=flat-square&message=Tracked&color=orange)
 ![](https://img.shields.io/static/v1?label=Ethereum&logo=ethereum&style=flat-square&message=Tracked&color=37367b)
