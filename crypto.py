@@ -1,13 +1,52 @@
+# Crypto Price tracker by Alexander Tomsovic
+# linktr.ee/alextomsovic
+#
+# Please note: 
+# The crypto checker has BETA features that allow users to recieve SMS messages about price updates and changes. 
+# To recieve these updates, I am making a FREE service that will be released by late 2022. In the meantime, 
+# you can get your own (1) number, (2) account_sid, and (3) auth token at https://www.twilio.com/referral/CaqA6u
+# Enter (2) and (3) into lines 27 and 28 of this file. Enter (1) into line 203! 
+
+
 import requests
 from bs4 import BeautifulSoup
 from time import sleep
 from colorama import Fore
 import sys
+from twilio.rest import Client
+from datetime import datetime
+
+# Date for SMS messaging
+
+current_day = datetime.now()
+current_time = current_day.strftime("%H:%M:%S")
+current_day_formatted = str(current_day.month) + "/" + str(current_day.day) + "/" + str(current_day.year) + " " + str(current_time) + " EST | "
+
+# TWilio auth codes SMS messaging
+
+account_sid = "twilio account_sid here"
+auth_token  = "twilio auth token here"
+
+client = Client(account_sid, auth_token)
+
+
+# Clearpage Function
 
 def clearpage():
   sys.stdout.write('\x1b[1A')
   sys.stdout.write('\x1b[2K')
-  
+
+def clearnine():
+  clearpage()
+  clearpage()
+  clearpage()
+  clearpage()
+  clearpage()
+  clearpage()
+  clearpage()
+  clearpage()
+  clearpage()
+
 # Webscraping function for Bitcoin
   
 def btc_prices():
@@ -150,11 +189,20 @@ while True:
     ltc_price = ltc_prices()
 
     # 24 Hour updates
+    
     btc_24h_change = btc_24h()
     eth_24h_change = eth_24h()
     xrp_24h_change = xrp_24h()
     usdt_24h_change  = usdt_24h()
     ltc_24h_change = ltc_24h()
+
+    # Sending BTC price to SMS number
+
+    message = client.messages.create(
+    to = "+15106790082", 
+    from_ = "+12536481838",
+    body = str(current_day_formatted) + "BTC | " + str(btc_price)
+    )
 
     # Color coding 24 Hour percentage changes 
 
@@ -183,12 +231,7 @@ while True:
     else: 
       color_ltc_24h_change = Fore.LIGHTGREEN_EX + str(ltc_24h_change)
     
-    clearpage()
-    clearpage()
-    clearpage()
-    clearpage()
-    clearpage()
-    clearpage()
+    clearnine()
     
     if btc_price > new_btc_prices: # Bitcoin up / down movement color coder
       print(Fore.LIGHTYELLOW_EX + "Bitcoin " + Fore.WHITE + "is trading at " + Fore.LIGHTGREEN_EX + str(btc_price) + Fore.WHITE + " | 24H/" + str(color_btc_24h_change.replace("+","")))
@@ -225,9 +268,8 @@ while True:
     else:
       print(Fore.BLUE + "Litecoin " + Fore.WHITE + "is trading at " + Fore.WHITE + str(ltc_price) + Fore.WHITE + " | 24H/" + str(color_ltc_24h_change))
 
+    print(Fore.LIGHTGREEN_EX + "\nSMS " + Fore.WHITE + "ID: ")
+    print(message.sid)
     checker = 1
   sleep(1)
-  
-  
-  
   
