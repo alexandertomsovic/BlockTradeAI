@@ -1,5 +1,3 @@
-# Crypto Price Checker by Alexander Tomsovic
-
 import requests
 from bs4 import BeautifulSoup
 from time import sleep
@@ -23,7 +21,7 @@ def btc_24h():
   btc_24h_url = 'https://www.binance.com/en/price/bitcoin'
   btc_24h_response = requests.get(btc_24h_url)
   btc_24h_soup = BeautifulSoup(btc_24h_response.text, 'html.parser')
-  btc_24h_change = btc_24h_soup.find('div', {"class": "css-12i542z"}).text
+  btc_24h_change = btc_24h_soup.find('div', {"class": "css-4j2do9"}).text
   return btc_24h_change
 # Webscraping function for Ethereum
   
@@ -229,6 +227,7 @@ while True:
 
     checker = 1
   sleep(1)
+  
   
   
   
