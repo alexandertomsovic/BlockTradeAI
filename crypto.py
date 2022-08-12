@@ -5,7 +5,7 @@
 # The crypto checker has BETA features that allow users to recieve SMS messages about price updates and changes. 
 # To recieve these updates, I am making a FREE service that will be released by late 2022. In the meantime, 
 # you can get your own (1) number, (2) account_sid, and (3) auth token at https://www.twilio.com/referral/CaqA6u
-# Enter (2) and (3) into lines 27 and 28 of this file. Enter (1) into line 203! 
+# Enter (2) and (3) into lines 28 and 29 of this file. Enter (1) into line 204! 
 #
 # If you do not wish to use SMS updates at this time and only want CLI updates:
 # Comment out lines 28 - 31, 202 - 206, and 272 - 273
@@ -201,7 +201,7 @@ while True:
 
     message = client.messages.create(
     to = "+15106790082", 
-    from_ = "+12536481838",
+    from_ = "your number",
     body = str(current_day_formatted) + "BTC | " + str(btc_price)
     )
 
