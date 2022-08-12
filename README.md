@@ -1,12 +1,20 @@
 # Crypto Price Checker (Updates Real Time)
 ![](https://img.shields.io/static/v1?label=Repository+Status&style=flat-square&message=Active&color=brightgreen)
 
-The **Crypto Price Checker** is the first part of my crypto bot project that will automatically trade cryptocurrencies. In its current form, this program continually checks the price with live data from [Crypto.com](https://crypto.com) which is sent back to the program. So far, only **ETH**, **BTC**, and **XRP** are tracked but I am planning to increase the number of coins quite soon! Stay tuned...
+The **Crypto Price Checker** is the first part of my crypto bot project that will automatically trade cryptocurrencies. In its current form, this program continually checks the price with live data from [Crypto.com](https://crypto.com) which is sent back to the program. So far, only **ETH**, **BTC**, and **XRP** are tracked but I am planning to increase the number of coins quite soon! Please read the paragraph below for new utility updates. 
+
+## SMS / Twilio 
+I have updated the **Crypto Price Checker** has to allow users to recieve SMS messages about **price updates** and **changes**. 
+This will be expanded upon to allow users to buy / sell crypto by sending a text and get real time updates on prices, sell times, and more. 
+This will be implemented in a FREE program that I am currently underway developing. To recieve current updates without these features: 
+You can get your own (1) number, (2) account_sid, and (3) auth token via [Twilio](https://www.twilio.com/referral/CaqA6u).
+Enter (2) and (3) into lines 27 and 28 of the crypto.py file located in this [Repository](https://github.com/alexandertomsovic). Enter (1) into line 203! 
 
 ## Recent Updates
 - Added Litecoin (LTC) Tracking
 - Added Tether (USDT) Tracking
 - Added 24 hour price % change
+- Added BTC SMS updates
 ## Creator
 - The Crypto Price Checker was created by [**Alexander Tomsovic**](github.com/alexandertomsovic)
 - Crypto Price Checker, an opensource project by A.R.T. LLC.
@@ -37,6 +45,7 @@ The **Crypto Price Checker** is the first part of my crypto bot project that wil
 ![](https://img.shields.io/static/v1?label=Repository+Status&style=flat-square&message=Active&color=brightgreen)
 ![](https://img.shields.io/static/v1?label=Price+Updates&style=flat-square&message=Active&color=brightgreen)
 ![](https://img.shields.io/static/v1?label=Percent+Changes&style=flat-square&message=Active&color=brightgreen)
+![](https://img.shields.io/static/v1?label=BTC+SMS+Updates&style=flat-square&message=Running&color=brightgreen)
 
 ![](https://img.shields.io/static/v1?label=Bitcoin&logo=bitcoin&style=flat-square&message=Tracked&color=orange)
 ![](https://img.shields.io/static/v1?label=Ethereum&logo=ethereum&style=flat-square&message=Tracked&color=37367b)
