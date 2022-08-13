@@ -35,7 +35,8 @@ Enter (2) and (3) into lines 27 and 28 of the crypto.py file located in this [Re
 -  More coins implemented
 -  Ability to see Day/Week/Month highs and lows
 -  Setting to see % changes
--  Live AI trading (FREE)
+-  Live AI trading 
+-  Website
 
 ## How To Use
 - You can access the browser version via my [**Replit**.](https://replit.com/@AlexTomsovic/cryptoprices#main.py)
