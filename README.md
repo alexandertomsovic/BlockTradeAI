@@ -16,10 +16,11 @@
 ## Creator
 - BlockTrade AI and the Crypto Checking code was developed by [**Alexander Tomsovic**](github.com/alexandertomsovic)
 - Engineered by A.R.T. LLC
+
 <a target="_blank" href="https://alextomsovic1.wixsite.com/my-site">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/84757117/185300584-bf5c08aa-15a5-442c-a580-87c3a701c5b7.png">
-  <source media="(prefers-color-scheme: light)"https://user-images.githubusercontent.com/84757117/185300584-bf5c08aa-15a5-442c-a580-87c3a701c5b7.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/84757117/185300584-bf5c08aa-15a5-442c-a580-87c3a701c5b7.png">
   <img src="" width="350">
 </picture>
 </a>
