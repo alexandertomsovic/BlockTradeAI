@@ -8,7 +8,7 @@
 ## Recent Updates
 - Added Litecoin (LTC) Tracking
 - Added Tether (USDT) Tracking
-- Added 24 hour price % change
+- Added 24 Hour price % change
 - Added BTC SMS updates
 - Created a website for [**BlockTrade AI**](www.blocktradeAI.com)
 - Added an [**SMS updating replit**](https://replit.com/@AlexTomsovic/CrytoPriceCheckWithSMS#main.py)
