@@ -11,7 +11,7 @@
   <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/84757117/185302977-1f992a26-1602-40ea-bd15-be8df4490e17.jpg">
   <img src="" width="350">
 </picture>
-</a>">
+</a>
 
 ![](https://img.shields.io/static/v1?label=BlockTradeAI+Beta&style=flat-square&message=Late+2022&color=ff6600)
 
