@@ -7,7 +7,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="<a target="_blank" href="https://alextomsovic1.wixsite.com/my-site">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/84757117/185302669-aabe8766-41f4-41d7-8607-32d62f09eccc.png">
+  <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/84757117/185303712-a680c900-007b-441d-b220-3ed32d943a9e.PNG)">
   <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/84757117/185302977-1f992a26-1602-40ea-bd15-be8df4490e17.jpg">
   <img src="" width="350">
 </picture>
