@@ -7,8 +7,8 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="<a target="_blank" href="https://alextomsovic1.wixsite.com/my-site">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/84757117/185304255-06e89af7-be1e-446b-87b2-9c5a7c8187a9.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/84757117/185304255-06e89af7-be1e-446b-87b2-9c5a7c8187a9.png">
+  <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/84757117/185304599-460ae457-a21a-4696-a186-dfcb82072ad7.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/84757117/185304599-460ae457-a21a-4696-a186-dfcb82072ad7.png">
   <img src="" width="350">
 </picture>
 </a>
