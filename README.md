@@ -3,16 +3,6 @@
 
 [**BlockTrade AI**](www.blocktradeAI.com) is a crypto trading bot that leverages world class AI and live market data in order to earn users consistant profits without them doing any heavy lifting. While BlockTrade AI is still in testing, we expect to launch our first public beta soon to allow users to experience what BlockTrade AI has to offer. Right now, you can utilize our first version of BlockTrade AI, a crypto price checker that sends SMS price updates. 
 
-<a target="_blank" href="https://alextomsovic1.wixsite.com/my-site">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="<a target="_blank" href="https://alextomsovic1.wixsite.com/my-site">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/84757117/185304599-460ae457-a21a-4696-a186-dfcb82072ad7.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/84757117/185304599-460ae457-a21a-4696-a186-dfcb82072ad7.png">
-  <img src="" width="350">
-</picture>
-</a>
-
 ![](https://img.shields.io/static/v1?label=BlockTradeAI+Beta&style=flat-square&message=Late+2022&color=ff6600)
 
 ## Recent Updates
