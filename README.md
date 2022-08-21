@@ -29,10 +29,11 @@
 - Update Ticker
 - Color Coded Price adjustments
 - ETH / BTC / XRP / USDT / LTC price tracking
+- BTC price update via SMS
 
-## How To Use
-- You can access the browser version for crypto price checking via my [**Replit**.](https://replit.com/@AlexTomsovic/cryptoprices#main.py)
-- To access the browser version WITH SMS MESSAGE UPDATES, visit my [**Other Replit**](https://replit.com/@AlexTomsovic/CrytoPriceCheckWithSMS#main.py)
+## Using BlockTrade AI: (pre public release)
+- You can access the browser version for crypto price checking (No SMS updates) via my [**Replit**.](https://replit.com/@AlexTomsovic/cryptoprices#main.py)
+- To access the browser version with SMS updates, visit my [**Other Replit**](https://replit.com/@AlexTomsovic/CrytoPriceCheckWithSMS#main.py)
 - To use in an IDE, download the file or type 'gh repo clone alexandertomsovic/cryptopricecheck' into the terminal
 
 
