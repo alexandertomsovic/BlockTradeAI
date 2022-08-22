@@ -41,6 +41,7 @@
 ![](https://img.shields.io/static/v1?label=Price+Updates&style=flat-square&message=Active&color=brightgreen)
 ![](https://img.shields.io/static/v1?label=Percent+Changes&style=flat-square&message=Active&color=brightgreen)
 ![](https://img.shields.io/static/v1?label=BTC+SMS+Updates&style=flat-square&message=Running&color=brightgreen)
+![](https://img.shields.io/static/v1?label=ETH+SMS+Updates&style=flat-square&message=Testing&color=ff6600)
 
 ![](https://img.shields.io/static/v1?label=Bitcoin&logo=bitcoin&style=flat-square&message=Tracked&color=orange)
 ![](https://img.shields.io/static/v1?label=Ethereum&logo=ethereum&style=flat-square&message=Tracked&color=37367b)
