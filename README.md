@@ -30,6 +30,7 @@
 - Color Coded Price adjustments
 - ETH / BTC / XRP / USDT / LTC price tracking
 - BTC price update via SMS
+- SMS message timer
 
 ## Using BlockTrade AI: (pre public release)
 - You can access the browser version for crypto price checking (No SMS updates) via my [**Replit**.](https://replit.com/@AlexTomsovic/cryptoprices#main.py)
