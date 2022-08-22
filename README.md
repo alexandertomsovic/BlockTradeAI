@@ -35,7 +35,10 @@
 ## Using BlockTrade AI: (pre public release)
 - You can access the browser version for crypto price checking (No SMS updates) via my [**Replit**.](https://replit.com/@AlexTomsovic/cryptoprices#main.py)
 - To access the browser version with SMS updates, visit my [**Other Replit**](https://replit.com/@AlexTomsovic/CrytoPriceCheckWithSMS#main.py)
-- To use in an IDE, download the file or type '''gh repo clone alexandertomsovic/cryptopricecheck''' into the terminal
+- To use in an IDE, download the file or type
+-  '''
+-  gh repo clone alexandertomsovic/cryptopricecheck
+-  ''' 
 
 
 ![](https://img.shields.io/static/v1?label=Repository+Status&style=flat-square&message=Active&color=brightgreen)
