@@ -1,4 +1,4 @@
-# BlockTrade AI | BlockTradeAI.com
+# BlockTrade AI | [BlockTradeAI.com](www.blocktradeAI.com)
 ![](https://img.shields.io/static/v1?label=Repository+Status&style=flat-square&message=Active&color=brightgreen)
 
 [**BlockTrade AI**](www.blocktradeAI.com) is a crypto trading bot that leverages world class AI and live market data in order to earn users consistant profits without them doing any heavy lifting. While BlockTrade AI is still in testing, we expect to launch our first public beta soon to allow users to experience what BlockTrade AI has to offer. Right now, you can utilize our first version of BlockTrade AI, a crypto price checker that sends SMS price updates. 
